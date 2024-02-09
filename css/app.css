@@ -79,9 +79,9 @@ main {
 
 .site .site-text .site-link {
     color: #232323;
-    font-family: "Big Caslon Black", "Big Caslon Black", serif;
-    font-size: 36px;
-    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
     line-height: 1.4;
     display: inline; 
 }
@@ -713,5 +713,7 @@ main #assets {
 img {
     max-width: 100%;
     display: block;
+    object-fit: contain;
+    height: fit-content;
+    width: fit-content;
 }
-
